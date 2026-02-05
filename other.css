@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    color: #222;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background:linear-gradient(120deg, #25d1fc,  #50b4ba);
+    color: white;
+    height: 55px;
+}
+
+.header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-weight: bold;
+}
+
+.icons i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+/* HERO */
+.hero-light {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(120deg, #91cedd,  #698789);
+}
+
+.hero-light h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-light p {
+    color: #666;
+}
+
+/* SHOP */
+.shop-modern {
+    padding: 60px;
+}
+
+.shop-topbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.modern-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.modern-card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+.card-img {
+    height: 180px;
+    background: #eee;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.modern-card button {
+    margin-top: 10px;
+    background: linear-gradient(120deg, #25d1fc,  #50b4ba);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* CATEGORIES */
+.category-modern {
+    padding: 60px;
+}
+
+.category-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.category-row.reverse {
+    direction: rtl;
+}
+
+.category-row.reverse * {
+    direction: ltr;
+}
+
+.category-image {
+    height: 700px;
+    background: #eaeaea;
+    border-radius: 20px;
+}
+
+/* CONTACT */
+.contact-modern {
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.contact-right input,
+.contact-right textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.contact-right button {
+    background:linear-gradient(120deg, #25d1fc,  #50b4ba);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.left{
+   background-color: #25d1fc;
+   width: 300px;
+   height: 200px;
+   border-radius: 8px;
+
+}
+
+.left h3 {
+    padding-left: 22px;
+}
+.left p {
+    padding-left: 15px;
+}
+
+
+.footer {
+    background: #111;
+    color: #ddd;
+    padding: 50px 60px 20px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.footer-box h2,
+.footer-box h3 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-box p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.footer-box ul {
+    list-style: none;
+}
+
+.footer-box ul li {
+    margin-bottom: 10px;
+}
+
+.footer-box ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-box ul li a:hover {
+    color: #2575fc;
+}
+
+/* SOCIAL ICONS */
+.social-icons a {
+    display: inline-block;
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    background: #2575fc;
+    transform: translateY(-4px);
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #222;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.footer-bottom span {
+    color: #2575fc;
+    font-weight: bold;
+}
+
+
+
+.card-img {
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.category-image {
+    height: 1000px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #eee;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.category-row:hover img {
+    transform: scale(1.05);
+    transition: 0.4s ease;
+}
