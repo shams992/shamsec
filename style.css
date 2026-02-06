@@ -14,7 +14,7 @@ body {
     background: #f5f5f5;
 }
 
-/* HEADER */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ body {
     cursor: pointer;
 }
 
-/* SLIDER */
+
 .slider {
     height: 200px;
     background: linear-gradient(120deg, #25d1fc,  #50b4ba);
@@ -71,7 +71,7 @@ body {
     border-radius: 20px;
 }
 
-/* CATEGORIES */
+
 .categories {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -91,7 +91,7 @@ body {
     transform: translateY(-5px);
 }
 
-/* PRODUCTS */
+
 .products {
     padding: 40px;
 }
@@ -250,7 +250,7 @@ body {
     color: #2575fc;
 }
 
-/* SOCIAL ICONS */
+
 .social-icons a {
     display: inline-block;
     margin-right: 12px;
@@ -270,7 +270,6 @@ body {
     transform: translateY(-4px);
 }
 
-/* FOOTER BOTTOM */
 .footer-bottom {
     text-align: center;
     margin-top: 40px;

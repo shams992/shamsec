@@ -31,7 +31,7 @@ body {
 }
 
 
-/* HERO */
+
 .hero-light {
     padding: 80px 20px;
     text-align: center;
@@ -47,7 +47,7 @@ body {
     color: #666;
 }
 
-/* SHOP */
+
 .shop-modern {
     padding: 60px;
 }
@@ -88,7 +88,7 @@ body {
     border-radius: 8px;
 }
 
-/* CATEGORIES */
+
 .category-modern {
     padding: 60px;
 }
@@ -115,7 +115,7 @@ body {
     border-radius: 20px;
 }
 
-/* CONTACT */
+
 .contact-modern {
     padding: 60px;
     display: grid;
@@ -199,7 +199,7 @@ body {
     color: #2575fc;
 }
 
-/* SOCIAL ICONS */
+
 .social-icons a {
     display: inline-block;
     margin-right: 12px;
@@ -219,7 +219,7 @@ body {
     transform: translateY(-4px);
 }
 
-/* FOOTER BOTTOM */
+
 .footer-bottom {
     text-align: center;
     margin-top: 40px;
